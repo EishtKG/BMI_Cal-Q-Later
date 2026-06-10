@@ -1,4 +1,5 @@
 # 🩺 BMI Cal-Q-Later
+##Just a Body Mass Index Calculator Website!!
 
 > **Note:** This is a beginner-level project built purely for hands-on practice and understanding of **DOM Manipulation** in JavaScript. The goal was never to build something fancy — just to get comfortable with how the DOM works. That said, the design happened naturally as the vibe flowed, and it turned out looking pretty good! So think of the UI as a fun side effect, not the main agenda. 😄
 
