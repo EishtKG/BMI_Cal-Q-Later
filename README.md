@@ -6,6 +6,7 @@
 
 ## 🖼️ Preview
 
+![BMI Cal-Q-Later Preview](screenshot/view2.png)
 ![BMI Cal-Q-Later Preview](screenshot/view.png)
 
 ---
