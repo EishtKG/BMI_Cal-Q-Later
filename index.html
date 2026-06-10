@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Cal-Q-Later</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="screenshot/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="screenshot/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="screenshot/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="screenshot/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="screenshot/site.webmanifest" />
+  </head>
+  <body class="min-h-screen flex items-center justify-center">
+    <div
+      class="container bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-10 rounded-2xl shadow-lg p-8 w-full max-w-md"
+    >
+      <h1
+        class="text-3xl font-light text-center mb-6 text-red-100 tracking-wide"
+      >
+        BMI Cal-Q-Later
+      </h1>
+      <label class="block text-red-200 mb-1 font-medium" for="height"
+        >Height(cm)</label
+      >
+      <input
+        type="number"
+        class="bg-white/5 border border-white/15 text-white rounded-lg p-2 w-full outline-none mt-1 mb-2"
+        id="height"
+        step="any"
+      />
+      <label class="block text-red-200 mb-1 font-medium" for="weight"
+        >Weight(kg)</label
+      >
+      <input
+        type="number"
+        class="bg-white/5 border border-white/15 text-white rounded-lg p-2 w-full outline-none mt-1 mb-2"
+        id="weight"
+        step="any"
+      />
+      <button
+        id="calculateBtn"
+        class="mt-4 w-full bg-gradient-to-r from-red-700 to-red-500 hover:from-red-600 hover:to-red-400 text-white py-2.5 rounded-xl font-semibold cursor-pointer transition-all duration-300 shadow-lg shadow-red-900/50"
+      >
+        Calculate BMI
+      </button>
+      <div
+        id="result"
+        class="mt-4 text-center text-lg font-semibold text-white"
+      ></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
